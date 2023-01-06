@@ -1,0 +1,43 @@
+#wrapper {
+    background-color: maroon;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    max-height: 250px;
+}
+
+#title {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+    float: left;
+    margin: 50px;
+    box-shadow: 0 0 10px;
+}
+
+body {
+    max-width: 500px;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul {
+    font-size: 18px;
+}
+
+footer {
+    display: grid;
+    background-color: maroon;
+    border-radius: 15px;
+    text-align: center;
+    height: 110px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+#lastUpdated {
+    font-size: 16px;
+}
