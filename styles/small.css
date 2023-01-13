@@ -1,0 +1,29 @@
+@media only screen and (max-width: 450px) {
+    #wrapper {
+        max-height: 300px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin: auto;
+        padding: 20px;
+    }
+
+    img {
+        margin: auto;
+        margin-top: 10%;
+    }
+
+    header {
+        display: grid;
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 22px;
+        text-align: center;
+        padding: 0;
+    }
+    
+}

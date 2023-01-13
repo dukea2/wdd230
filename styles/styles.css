@@ -6,21 +6,28 @@
     max-height: 250px;
 }
 
-#title {
+h1 {
     color: white;
     font-family: 'Quicksand', sans-serif;
+    font-size: 2.5rem;
+    float: right;
+    margin-top: 25%;
 }
 
 img {
-    float: left;
-    margin: 50px;
+    margin: 40px;
     box-shadow: 0 0 10px;
 }
 
 body {
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    font-size: 25px;
+    padding-left: 20px;
 }
 
 ul {
