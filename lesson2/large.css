@@ -56,8 +56,15 @@ main p {
     margin: 10px;
 }
 
+img {
+    margin: auto;
+    max-width: 310px;
+    display: flex;
+    justify-content: center;
+}
+
 body {
-    max-width: 70em;
+    width: 70em;
     margin: auto;
 }
 

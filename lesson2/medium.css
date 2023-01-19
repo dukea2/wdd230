@@ -1,0 +1,24 @@
+@media only screen and (max-width: 760px) {
+    header {
+        height: 180px;
+        font-size: 20px;
+    }
+
+    main {
+        font-size: 5vw;
+    }
+    #principle1 {
+        
+    }
+    #principle2 {
+        
+    }
+    #principle3 {
+        grid-column: 1/ span 2;
+    }
+    footer {
+        height: 120px;
+        font-size: 25px;
+    }
+
+}
