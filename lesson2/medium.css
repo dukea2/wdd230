@@ -7,18 +7,13 @@
     main {
         font-size: 5vw;
     }
-    #principle1 {
-        
-    }
-    #principle2 {
-        
-    }
+
     #principle3 {
         grid-column: 1/ span 2;
     }
+
     footer {
         height: 120px;
         font-size: 25px;
     }
-
 }
