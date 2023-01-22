@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-size: 18px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+	background-color: #dddddd;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+h1 {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 2.5em;
+    color: #b67e2b;
+    display: none;
+}
+
+h2,
+p {
+    padding: 10px;
+}
+
+main p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+nav {
+    background-color: #b67e2b;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav div {
+    flex: 1 1 auto;
+}
+
+nav a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+nav a:hover {
+	background-color: #585858;
+	color: white;
+}
+
+main {
+    text-align: center;
+}
+
+ul {
+    padding: 10px;
+}
+
+table {
+    margin: auto;
+    padding: 10px;
+}
+
+td, 
+th {
+    padding: 10px;
+}
+
+#color1 {
+    background-color: #dddddd;
+}
+#color2 {
+    background-color: #b67e2b;
+}
+#color3 {
+    background-color: #585858;
+    color: white;
+}
+#color4 {
+    background-color: #ffffff;
+}
+#color5 {
+    background-color: #000000;
+    color: white;
+}
+
+#toplogo {
+    max-width: 9rem;
+    
+}
+
+#logo {
+    max-width: 13em;
+}
+
+img {
+    margin: 20px;
+}
+
+.text {
+    text-align: left;
+}
+
+#persona1,
+#persona2 {
+    display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+}
+
+footer {
+    display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+    text-align: center;
+    background-color: #b67e2b;
+    height: 80px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+#headingfont {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 2em
+}
+#navfont {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+#parafont {
+    font-size: 1.2em;
+}
+#footerfont {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+
+@media (min-width: 37.5em) {
+	nav {
+		flex-direction: row;
+	}
+	nav a {
+		font-size: 1.1rem;
+	}
+    h1 {
+        display: inline;
+    }
+    #persona1,
+    #persona2 {
+	    flex-flow: row;
+	    max-width: 90%;
+    }
+}
+
+@media (min-width: 48em) {
+	nav a {
+		font-size: 1.3rem;
+	}
+    main p {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+}
