@@ -1,0 +1,46 @@
+@media (min-width: 48em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+
+    #mainContent {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    #event {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    #hero {
+        grid-column: span 1;
+        grid-row: 1/span 2;
+        height: auto;
+    }
+    #weather {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    #news {
+        grid-column: span 1;
+        grid-row: 3;
+    }
+    #join {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    #spotlights {
+        grid-column: 3;
+        grid-row: 1/span 3;
+        grid-template-columns: 1fr;
+    }
+}

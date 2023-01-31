@@ -1,0 +1,48 @@
+@media (min-width: 37.5em) {
+	#mainContent {
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+    #hero {
+        grid-column: span 2;
+        grid-row: 1;
+    }
+    #news {
+        grid-column: span 2;
+        grid-row: 2;
+    }
+    #spotlights {
+        display: grid;
+        grid-column: span 2;
+        grid-row: 3;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #join {
+        grid-column: span 2;
+        grid-row: 4;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: auto;
+    }
+    #footerMain {
+        display: flex;
+        align-items: center;
+    }
+    #footerLogo {
+        float: left;
+        padding: 10px;
+    }
+    #footerName {
+        text-align: left;
+    }
+    #contact {
+        border: hidden;
+    }
+    #footerCopyright {
+        grid-column: span 3;
+        margin: 10px;
+    }
+}
