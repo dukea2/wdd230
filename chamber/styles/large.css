@@ -12,6 +12,9 @@
 	.navigation li:first-child {
 		display: none;
 	}
+    aside {
+        margin-right: 1rem;
+    }
 
     #mainContent {
         display: grid;
