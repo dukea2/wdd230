@@ -12,9 +12,6 @@
 	.navigation li:first-child {
 		display: none;
 	}
-    aside {
-        margin-right: 1rem;
-    }
 
     #mainContent {
         display: grid;
@@ -28,6 +25,11 @@
         grid-column: span 1;
         grid-row: 1/span 2;
         height: auto;
+        overflow: hidden;
+    }
+    #hero img {
+        height: 100%;
+        min-width: 1000px;
     }
     #weather {
         grid-column: 1;

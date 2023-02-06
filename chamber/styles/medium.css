@@ -21,6 +21,9 @@
         grid-column: span 2;
         grid-row: 4;
     }
+    aside {
+        margin-right: 1rem;
+    }
 
     footer {
         display: grid;
