@@ -281,6 +281,9 @@ footer {
     color: white;
     margin: 0;
 }
+#footerflex div {
+    padding: 0.2em;
+}
 #footerName {
     font-family: 'Advent Pro', sans-serif;
     font-size: 1rem;
@@ -289,5 +292,5 @@ footer {
     max-width: 80px;
 }
 #footerCopyright {
-    border-top: solid 1px #585858;
+    border-top: solid 1px white;
 }
