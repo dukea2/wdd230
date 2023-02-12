@@ -47,7 +47,12 @@
             <div id="hero">
                 <h2>Welcome to Rexburg</h2>
                 <a href="">Join the Chamber</a>
-                <img src="images/Rexburg.jpeg" alt="Overview shot of buildings in Rexburg, ID">
+                <picture>
+                    <source srcset="images/hero-med.jpg" media="(min-width: 37.5em) and (max-width: 50em)">
+                    <source srcset="images/hero-large.jpg" media="(min-width: 50em)">
+                    <img src="images/hero-small.jpg" alt="People sitting at a table">
+                </picture>
+                <!-- <img src="images/Rexburg.jpeg" alt="Overview shot of buildings in Rexburg, ID"> -->
             </div>
             <div id="event">
                 <h2>Farmer's Market</h2>
@@ -57,12 +62,12 @@
                 <h2>Weather</h2>
                 <div id="weathericon">
                     <img src="images/snow.png" alt="Snow icon">
-                    <p>25°F</p>
+                    <p><span id="temp">25</span>°F</p>
                 </div>
                 <p id="condition">Snow</p>
                 <div id="wind">
-                <p>Wind Speed: 5 mph<br>
-                Wind Chill: n/a</p>
+                <p>Wind Speed: <span id="windspeed">3</span> mph</p>
+                <p>Wind Chill: <span id="windchill">-2</span></p>
                 </div>
             </div>
             <div id="join">
@@ -117,5 +122,6 @@
         </div>
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
