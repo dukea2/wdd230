@@ -1,5 +1,6 @@
 @media (min-width: 50em) {
-	.navigation {
+	/* Nav Menu */
+    .navigation {
 		display: flex;
 	}
 	.navigation li {
@@ -13,6 +14,7 @@
 		display: none;
 	}
 
+    /* Home Page */
     #mainContent {
         display: grid;
         grid-template-columns: 1fr 2.5fr 1fr;
@@ -47,5 +49,23 @@
         grid-column: 3;
         grid-row: 1/span 3;
         grid-template-columns: 1fr;
+    }
+
+    /* Discover Page */
+    #discover-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #discover-main * {
+        max-width: 100%;
+        margin: 5px;
+    }
+    #discover-main img:hover {
+        box-shadow: 0 0 10px #585858;
+        transition: 0.2s;
     }
 }

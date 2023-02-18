@@ -267,6 +267,19 @@ main a:hover {
     align-items: center;
 }
 
+/* Discover Page Main */
+#discover-main * {
+    margin: 5px;
+    display: flex;
+    flex-flow: column;
+	align-items: center;
+	justify-content: center;
+}
+#discover-main figcaption {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.75em;
+}
+
 /* Footer Elements */
 footer {
     display: flex;
