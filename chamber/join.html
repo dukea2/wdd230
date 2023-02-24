@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rexburg Chamber of Commerce Homepage.">
+    <meta name="author" content="Ashley Duke">
+    <title>Join | Rexburg Chamber</title>
+    <link rel="icon" href="chamber-favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <picture><a href="index.html"><img id="headerLogo" src="images/chamber-logo.webp" alt="Logo for Rexburg Chamber of Commerce"></a></picture>
+            <section class="headings">
+                <h1>Rexburg</h1>
+                <p class="m">Chamber of Commerce</p>
+            </section>
+        </div>
+        <div id="socials">
+            <a href="https://www.facebook.com/rexburgchamberofcommerce/" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/rexchamber/?hl=en" target="_blank" class="fa fa-instagram"></a>
+        </div>
+        <div class="today"></div>
+        <aside></aside>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a id="menu" href="#"></a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 id="jointitle">Join the Rexburg Chamber Today!</h2>
+        <div id="join-main">
+        <div>
+            <form action="thankyou.html" method="get">
+            <label for="fname">First Name *<br>
+                <input type="text" id="fname" name="fname" required>
+            </label>
+            <label for="lname">Last Name *<br>
+                <input type="text" id="lname" name="lname" required>
+            </label>
+            <label for="email">Email *<br>
+                <input type="email" id="email" name="email" required placeholder="johndoe@email.com">
+            </label>
+            <label for="phone">Phone Number *<br>
+                <input type="tel" id="phone" name="phone" required>
+            </label>
+            <div><hr></div>
+            <label for="title">Business Name *<br>
+                <input type="text" id="title" name="title" required>
+            </label>
+            <label for="ptitle">Business Position Title <br>
+                <input type="text" id="ptitle" name="ptitle" pattern="[a-zA-Z -]{7,}">
+            </label>
+            <label for="descript">Business Description <br>
+                <textarea name="descript" id="descript" rows="5" placeholder="Please provide a brief description of your business"></textarea>
+            </label>
+            <label for="membership">Membership Level <br>
+                <select name="membership" id="membership">
+                    <option>--Select an option--</option>
+                    <option value="np">Non-Profit</option>
+                    <option value="bronze">Bronze</option>
+                    <option value="silver">Silver</option>
+                    <option value="gold">Gold</option>
+                </select>
+            </label>
+            <label for="subdate">
+                <input type="hidden" id="subdate" name="subdate">
+            </label>
+            <label for="submit">
+                <input type="submit" id="submit" value="Join!">
+            </label>
+            </form>
+        </div>
+        <div>
+        <table>
+            <caption>Table 1: Membership Levels Comparison</caption>
+            <thead>
+                <tr>
+                    <th colspan="5" scope="colgroup">Membership Level Benefits</th>
+                </tr>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">NP</th>
+                    <th scope="col">Bronze</th>
+                    <th scope="col">Silver</th>
+                    <th scope="col">Gold</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Price (Monthly)</td>
+                    <td>$0</td>
+                    <td>$10</td>
+                    <td>$20</td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Spotlights</td>
+                    <td class="check">✓</td>
+                    <td class="check">✓</td>
+                    <td class="check">✓</td>
+                    <td class="check">✓</td>
+                </tr>
+                <tr>
+                    <td>Discounts</td>
+                    <td class="cross">⨉</td>
+                    <td class="check">✓</td>
+                    <td class="check">✓</td>
+                    <td class="check">✓</td>
+                </tr>
+                <tr>
+                    <td>Trainings</td>
+                    <td class="cross">⨉</td>
+                    <td class="cross">⨉</td>
+                    <td class="check">✓</td>
+                    <td class="check">✓</td>
+                </tr>
+                <tr>
+                    <td>Member Events</td>
+                    <td class="cross">⨉</td>
+                    <td class="cross">⨉</td>
+                    <td class="cross">⨉</td>
+                    <td class="check">✓</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footerflex">
+        <div id="footerMain">
+        <img id="footerLogo" src="images/chamber-logo.webp" alt="Logo for Rexburg Chamber of Commerce">
+        <p id="footerName">Rexburg Chamber of Commerce</p>
+        </div>
+        <div id="address">
+            <p>1029 Iceberg Lane</p>
+            <p>Rexburg, ID 83440</p>
+        </div>
+        <div id="contact">
+            <p>info@rexburgcc.com</p>
+            <p>(208) 123-4567</p>
+            <p><a href="https://goo.gl/maps/wJdsefG5YE2wGXiv5" target="_blank">Location Map</a></p>
+        </div>
+        </div>
+        <div id="footerCopyright">
+        <p><span id="copyright"></span> Rexburg Chamber | Ashley Duke | WDD 230 Project</p>
+        <p><span id="lastUpdated"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>

@@ -63,4 +63,18 @@
         box-shadow: 0 0 10px #585858;
         transition: 0.2s;
     }
+
+    /* Join Page */
+    #join-main {
+        display: flex;
+        justify-content: space-around;
+        margin: 1em auto 1em;
+        max-width: 50%;
+    }
+    form {
+        width: 400px;
+    }
+    table {
+        width: 400px;
+    }
 }

@@ -107,7 +107,7 @@ nav {
 	display: block;
 }
 .responsive #menu::before {
-	content: "🞨";
+	content: "x";
 }
 
 /* Main Content */
@@ -269,15 +269,128 @@ main a:hover {
 
 /* Discover Page Main */
 #discover-main * {
-    margin: 5px;
+    margin: 0 5px 5px 5px;
     display: flex;
     flex-flow: column;
 	align-items: center;
 	justify-content: center;
+    max-width: 100%;
+}
+#discover-main picture {
+    margin: 0 0 1em 0;
 }
 #discover-main figcaption {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 0.75em;
+}
+
+/* Join Page Form */
+#jointitle {
+    margin: 1em;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 3px solid #b67e2b;
+    border-radius: 10px;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+form label {
+    margin: 10px;
+    color: #585858;
+}
+
+form input, textarea, select {
+    width: 95%;
+    padding: 0.3em;
+    margin-top: 0.3em;
+    border: 2px solid #dddddd;
+    border-radius: 8px;
+    color: #585858;
+}
+
+hr {
+    border: 0;
+    border-bottom: 3px dotted #b67e2b;
+    width: 50%;
+    margin: 1.5em auto 1.5em;
+}
+
+#submit {
+    padding: 0.6em;
+    background-color: #b67e2b;
+    border: none;
+    width: 100%;
+    color: white;
+}
+
+/* Join Page Table */
+table {
+	margin: 1em auto;
+	border-collapse: collapse;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* overflow-x: auto;
+    display: block; */
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+	font-size: 0.9em;
+}
+
+td {
+	padding: 0.5em 1em;
+	border: 1px solid #dadada;
+    font-size: 0.9em;
+}
+
+th {
+	background-color: #747474;
+    border: 1px solid #8b8b8b;
+    font-size: 1em;
+    color: white;
+}
+
+thead th{
+    padding: 0.7em;
+    font-weight: lighter;
+}
+
+th:first-child {
+    background-color: #585858;
+    border: 1px solid #585858;
+    padding: 1em;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #eeeeee;
+}
+
+tbody {
+    font-weight: bold;
+}
+
+.check {
+    color: #00b327;
+}
+
+.cross {
+    color: red;
+}
+
+/* Thank You Page */
+#join-thanks {
+    text-align: center;
+    margin: 5em;
 }
 
 /* Footer Elements */
@@ -306,4 +419,11 @@ footer {
 }
 #footerCopyright {
     border-top: solid 1px white;
+}
+#contact a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    opacity: 80%;
 }
