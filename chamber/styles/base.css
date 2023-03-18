@@ -416,9 +416,10 @@ tbody {
     margin: 2em;
     padding: 1em;
     box-shadow: 0 0 8px #cecece;
+    line-height: 0.4em;
 }
 
-#name-hidden {
+.name-hidden {
     display: none;
 }
 
@@ -427,9 +428,13 @@ tbody {
     color: #b67e2b;
 }
 
+.list {
+    margin: 1em;
+}
+
 .list section {
     text-align: left;
-    margin: 1em;
+    margin: auto;
     padding: 1.5em;
     line-height: 0.4em;
     box-shadow: none;
@@ -443,7 +448,7 @@ tbody {
     background-color: #eeeeee;
 }
 
-.list #name-hidden {
+.list .name-hidden {
     display: inline;
     font-weight: bold;
 }

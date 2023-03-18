@@ -64,7 +64,7 @@ const displayBusinesses = (businessDirectory) => {
         let image = document.createElement('img');
 
         name.textContent = `${business.name}`;
-        name.setAttribute('id', 'name-hidden');
+        name.setAttribute('class', 'name-hidden');
 
         address.textContent = `${business.address}`;
         phone.textContent = `${business.phone}`;
