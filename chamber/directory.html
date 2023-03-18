@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rexburg Chamber of Commerce Discover Page.">
+    <meta name="description" content="Rexburg Chamber of Commerce Homepage.">
     <meta name="author" content="Ashley Duke">
-    <title>Discover | Rexburg Chamber</title>
+    <title>Directory | Rexburg Chamber</title>
     <link rel="icon" href="chamber-favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,36 +43,21 @@
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
-    <main id="discover-main">
-        <picture>
-            <img src="images/placeholder.jpg" data-src="images/rexburg-temple.jpg" loading="lazy">
-            <figcaption>LDS Temple in Rexburg, ID</figcaption>
-        </picture>
-        <picture>
-            <img src="images/placeholder.jpg" data-src="images/rexburg-naturepark.jpg" loading="lazy">
-            <figcaption>Nature Park in Rexburg, ID</figcaption>
-        </picture>
-        <picture>
-            <img src="images/placeholder.jpg" data-src="images/rexburg-porterpark.jpg" loading="lazy">
-            <figcaption>Porter Park in Rexburg, ID</figcaption>
-        </picture>
-        <picture>
-            <img src="images/placeholder.jpg" data-src="images/rexburg-rapids.jpg" loading="lazy">
-            <figcaption>Rexburg Rapids Water Park in Rexburg, ID</figcaption>
-        </picture>
-        <picture>
-            <img src="images/placeholder.jpg" data-src="images/rexburg-fatcats.jpg" loading="lazy">
-            <figcaption>Fat Cats Entertainment Center in Rexburg, ID</figcaption>
-        </picture>
-        <picture>
-            <img src="images/placeholder.jpg" data-src="images/rexburg-walmart.jpg" loading="lazy">
-            <figcaption>Walmart in Rexburg, ID</figcaption>
-        </picture>
+    <main>
+        <div id="directTitle">
+            <h2>Business Directory</h2>
+            <button id="grid"><img src="images/grid.ico" alt="grid icon"></button>
+            <button id="list"><img src="images/list.ico" alt="list icon"></button>
+        </div>
+        <div id="directCards">
+            <article class="cards">
+            </article>
+        </div>
     </main>
     <footer>
         <div id="footerflex">
         <div id="footerMain">
-        <img id="footerLogo" src="images/chamber-logo.webp" alt="Logo for Rexburg Chamber of Commerce" loading="lazy">
+        <img id="footerLogo" src="images/chamber-logo.webp" alt="Logo for Rexburg Chamber of Commerce">
         <p id="footerName">Rexburg Chamber of Commerce</p>
         </div>
         <div id="address">
@@ -91,6 +76,5 @@
         </div>
     </footer>
     <script src="scripts/script.js"></script>
-    <script src="scripts/lazyload.js"></script>
 </body>
 </html>

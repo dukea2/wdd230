@@ -1,0 +1,85 @@
+{
+    "businessDirectory": [
+        {
+            "name": "AlphaGraphics",
+            "address": "80 S 2nd W",
+            "phone": "(208) 357-9784",
+            "website": "https://www.alphagraphics.com/us-idaho-rexburg-us643",
+            "webtext": "alphagraphics.com",
+            "imageurl": "https://www.alphagraphics.com/Image%20Library/content-images/logo.webp",
+            "level": "gold"
+        },
+        {
+            "name": "Apple Tree Dental",
+            "address": "33 Winn Dr Suite 2",
+            "phone": "(208) 359-1500",
+            "website": "https://www.rexburgappletreedental.com/",
+            "webtext": "rexburgappletreedental.com",
+            "imageurl": "data:image/png;base64,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",
+            "level": "silver"
+        },
+        {
+            "name": "Broulim's",
+            "address": "124 W Main St",
+            "phone": "(208) 356-4651",
+            "website": "https://www.broulims.com/locations/rexburg",
+            "webtext": "broulims.com",
+            "imageurl": "https://surveymonkey-assets.s3.amazonaws.com/survey/71192021/ee2bc770-77aa-4479-b8f8-c84eea330502.png",
+            "level": "gold"
+        },
+        {
+            "name": "Cedar Ridge Animal Hospital",
+            "address": "1076 Erikson Dr",
+            "phone": "(208) 252-5899",
+            "website": "https://www.cedarridgeanimalhospital.com/",
+            "webtext": "cedarridgeanimalhospital.com",
+            "imageurl": "https://le-cdn.hibuwebsites.com/f64bf8aaea5b4e5d9fe17b6152c67ee2/dms3rep/multi/opt/logo-7e7bdc6c-eddd937b-367w.png",
+            "level": "bronze"
+        },
+        {
+            "name": "Fat Cats",
+            "address": "475 N 2nd E St",
+            "phone": "(208) 359-2600",
+            "website": "https://www.fatcatsfun.com/locations/rexburg/",
+            "webtext": "fatcatsfun.com",
+            "imageurl": "https://www.visitmesa.com/imager/files_idss_com/C366/images/listings/FatCats0-a81f8f8f5056a36_426a0d56f86ea2ddc3dffa9c3f97185a.png",
+            "level": "silver"
+        },
+        {
+            "name": "Family Crisis Center",
+            "address": "16 E Main St",
+            "phone": "(208) 356-0065",
+            "website": "https://familycrisiscenter.wixsite.com/familycrisiscenter",
+            "webtext": "familycrisiscenter.wixsite.com",
+            "imageurl": "https://static.wixstatic.com/media/5f799f_2a00181f56d54c8e9ab7f817f72aea4a~mv2.png/v1/fill/w_600,h_173,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5f799f_2a00181f56d54c8e9ab7f817f72aea4a~mv2.png",
+            "level": "np"
+        },
+        {
+            "name": "Idaho Central Credit Union",
+            "address": "673 N 2nd E",
+            "phone": "(208) 478-3300",
+            "website": "https://www.iccu.com/credit-union/rexburg/rexburg-branch/",
+            "webtext": "iccu.com",
+            "imageurl": "https://cdn.iccu.com/inc/uploads/2018/05/Green-Solid-1200x630.jpg",
+            "level": "silver"
+        },
+        {
+            "name": "Little Caesars Pizza",
+            "address": "26 W 1st S",
+            "phone": "(208) 359-0071",
+            "website": "https://littlecaesars.com/en-us/store/7407",
+            "webtext": "littlecaesars.com",
+            "imageurl": "https://searchlogovector.com/wp-content/uploads/2018/06/little-caesars-logo-vector.png",
+            "level": "gold"
+        },
+        {
+            "name": "The Cookie Place",
+            "address": "24 W 1st S",
+            "phone": "(208) 970-6543",
+            "website": "https://www.thecookieplace.co/",
+            "webtext": "thecookieplace.co",
+            "imageurl": "https://www.thecookieplace.co/wp-content/uploads/2019/05/TheCookiePlace_Final_Black.jpg",
+            "level": "bronze"
+        }
+    ]
+}

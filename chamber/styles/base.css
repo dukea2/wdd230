@@ -393,6 +393,61 @@ tbody {
     margin: 5em;
 }
 
+/* Directory Page Main */
+#directTitle, #directCards {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#grid, #list {
+    padding: 10px;
+    margin: 10px;
+}
+
+#grid:focus {
+    background-color: #cecece;
+}
+
+#list:focus {
+    background-color: #cecece;
+}
+
+.cards section {
+    margin: 2em;
+    padding: 1em;
+    box-shadow: 0 0 8px #cecece;
+}
+
+#name-hidden {
+    display: none;
+}
+
+.cards a {
+    text-decoration: none;
+    color: #b67e2b;
+}
+
+.list section {
+    text-align: left;
+    margin: 1em;
+    padding: 1.5em;
+    line-height: 0.4em;
+    box-shadow: none;
+}
+
+.list img {
+    display: none;
+}
+
+.list section:nth-child(odd) {
+    background-color: #eeeeee;
+}
+
+.list #name-hidden {
+    display: inline;
+    font-weight: bold;
+}
+
 /* Footer Elements */
 footer {
     display: flex;

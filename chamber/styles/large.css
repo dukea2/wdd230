@@ -77,4 +77,37 @@
     table {
         width: 400px;
     }
+
+    /* Directory Page */
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .cards section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #directCards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards img {
+        width: 10em;
+    }
+
+    .list {
+        display: inline;
+    }
+    
+    .list section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: auto;
+    }
 }
