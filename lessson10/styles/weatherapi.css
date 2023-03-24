@@ -1,0 +1,18 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 50em;
+    margin: 1em auto;
+    padding: 1em;
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+
+h1 {
+    color: #a53838;
+    padding: 0.5em;
+}
+
+figcaption {
+    text-transform: capitalize;
+}
