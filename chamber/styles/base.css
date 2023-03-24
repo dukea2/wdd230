@@ -389,6 +389,22 @@ tbody {
     color: red;
 }
 
+/* Contact Page */
+#contactinfo {
+    margin: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#contactinfo h2 {
+    text-align: center;
+}
+#contactinfo div {
+    padding: 0.2em;
+    line-height: 8px;
+}
+#contactform h2{
+    text-align: center;
+}
+
 /* Thank You Page */
 #join-thanks {
     text-align: center;

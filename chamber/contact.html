@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Rexburg Chamber of Commerce Homepage.">
     <meta name="author" content="Ashley Duke">
-    <title>Thank You | Rexburg Chamber</title>
+    <title>Contact | Rexburg Chamber</title>
     <link rel="icon" href="chamber-favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -44,7 +44,57 @@
         </ul>
     </nav>
     <main>
-        <h2 id="join-thanks">Thank you! Your response has been recorded</h2>
+        <div id="contact-main">
+        <div id="contactinfo">
+            <h2>Contact Us</h2>
+            <div>
+                <h3>Office Hours</h3>
+                <p>Monday to Friday</p>
+                <p>8am - 5pm</p>
+            </div>
+            <div>
+                <h3>Address</h3>
+                <p>167 W Main St #2</p>
+                <p>Rexburg, ID 83440</p>
+            </div>
+            <div>
+                <h3>Phone</h3>
+                <p>(208) 356-5700</p>
+            </div>
+            <div>
+                <h3>Email</h3>
+                <p>info@rexburgcc.com</p>
+            </div>
+        </div>
+        <div id="contactform">
+            <h2>Contact Form</h2>
+            <form action="thankyou.html" method="get">
+            <label for="name">Name *<br>
+                <input type="text" name="name" id="name" required>
+            </label>
+            <label for="phone">Phone *<br>
+                <input type="tel" name="phone" id="phone" required>
+            </label>
+            <label for="email">Email Address *<br>
+                <input type="text" name="email" id="email" required>
+            </label>
+            <label for="member">Are you a Chamber Member? <br>
+                <select name="member" id="member">
+                    <option>--Select an option--</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                    <option value="notsure">Not Sure</option>
+                </select>
+            </label>
+            <label for="comment">Comments/Questions *<br>
+                <textarea name="comment" id="comment" rows="5" required></textarea>
+            </label>
+            <label for="submit">
+                <input type="submit" id="submit" value="Submit">
+            </label>
+            </form>
+        </div>
+        </div>
     </main>
     <footer>
         <div id="footerflex">

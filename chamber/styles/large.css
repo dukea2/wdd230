@@ -78,6 +78,22 @@
         width: 400px;
     }
 
+    /* Contact Page */
+    #contact-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #contactinfo {
+        order: 2;
+    }
+    #contactform {
+        order: 1;
+    }
+    #contactinfo h2 {
+        text-align: left;
+    }
+
     /* Directory Page */
     .cards {
         display: grid;
