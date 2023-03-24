@@ -3,11 +3,11 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('#weather-condition');
 const windSpeed = document.querySelector('#weather-wind');
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Rexburg,us&units=imperial&appid=249ff5f12842112d7ea5bfdbac4565f6';
+const weatherurl = 'https://api.openweathermap.org/data/2.5/weather?q=Rexburg,us&units=imperial&appid=249ff5f12842112d7ea5bfdbac4565f6';
 
 async function apiFetch() {
     try {
-      const response = await fetch(url);
+      const response = await fetch(weatherurl);
       if (response.ok) {
         const data = await response.json();
         displayResults(data);

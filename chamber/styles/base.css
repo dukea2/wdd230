@@ -182,7 +182,7 @@ main a:hover {
 }
 #weathericon img {
     float: left;
-    width: 100px;
+    width: 80px;
 }
 #weathericon {
     display: flex;
@@ -190,11 +190,13 @@ main a:hover {
 }
 #weathericon p {
     font-size: 2em;
+    margin-left: 10px;
 }
-#condition {
+#weather-condition {
     font-size: 1.5em;
     margin: 0;
     padding: 10px;
+    text-transform: capitalize;
 }
 #wind {
     border-top: 1px solid white;
