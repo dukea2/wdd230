@@ -50,6 +50,9 @@
         grid-row: 1/span 3;
         grid-template-columns: 1fr;
     }
+    .spotlights {
+        flex-direction: column;
+    }
 
     /* Discover Page */
     #discover-main {
@@ -89,6 +92,10 @@
     }
     #contactform {
         order: 1;
+        margin: 10px;
+    }
+    #contactform h2 {
+        display: none;
     }
     #contactinfo h2 {
         text-align: left;

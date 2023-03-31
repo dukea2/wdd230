@@ -15,7 +15,12 @@
         display: grid;
         grid-column: span 2;
         grid-row: 3;
-        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .spotlights {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
     }
     #join {
         grid-column: span 2;

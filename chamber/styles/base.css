@@ -240,33 +240,33 @@ main a:hover {
     border: 5px solid #dddddd;
     margin: 5px;
     padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#spotlights img {
+.spotlights {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.spotlights p {
+    padding: 2px;
+    margin: 0;
+}
+.spotlights a {
+    text-decoration: none;
+    color: #b67e2b;
+}
+.spotlights img {
     max-width: 10em;
 }
-#spotlight1 {
-    min-height: 200px;
+.spotlights section {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-#spotlight2 {
-    min-height: 200px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#spotlight3 {
-    min-height: 200px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* Discover Page Main */
