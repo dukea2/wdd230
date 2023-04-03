@@ -1,0 +1,22 @@
+@media (min-width: 40em) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    #topinfo {
+        grid-column: span 2;
+        margin: auto 2em;
+    }
+    #weather {
+        grid-row: 2;
+        margin-bottom: 30px;
+    }
+    #weather-info {
+        width: 70%;
+    }
+    #contactus {
+        grid-row: 2;
+    }
+    .bot-img {
+        grid-column: span 2;
+    }
+}
