@@ -147,6 +147,10 @@ h2 {
     line-height: 0.5em;
 }
 
+#hidepic {
+    display: none;
+}
+
 /* ----------Footer Elements---------- */
 footer {
     padding: 10px;

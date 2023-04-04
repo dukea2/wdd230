@@ -4,19 +4,28 @@
     }
     #topinfo {
         grid-column: span 2;
-        margin: auto 2em;
+        grid-row: 3;
+        /* margin: auto 2em; */
     }
     #weather {
-        grid-row: 2;
+        grid-row: 4;
         margin-bottom: 30px;
     }
     #weather-info {
         width: 70%;
     }
     #contactus {
-        grid-row: 2;
+        grid-row: 4;
     }
     .bot-img {
         grid-column: span 2;
+    }
+    #always {
+        grid-column: span 2;
+        grid-row: 1;
+    }
+    #cta {
+        grid-column: span 2;
+        grid-row: 2;
     }
 }
