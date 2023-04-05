@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ashley Duke's Bountiful Foods Website for WDD 230 Final">
+    <meta name="author" content="Ashley Duke">
+    <title>Fresh | Bountiful Foods</title>
+    <link rel="icon" href="images/bf-favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <div id="sociallinks">
+            <a href="https://www.facebook.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/240px-Facebook_icon_2013.svg.png" alt="Facebook logo" width="20"></a>
+            <a href="https://www.instagram.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/240px-Instagram_icon.png" alt="Instagram logo" width="20"></a>
+            <a href="https://twitter.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/292px-Twitter-logo.svg.png" alt="Twitter's logo" width="20"></a>
+        </div>
+        <picture>
+            <a href="index.html"><img id="mainlogo" src="images/bf-logo.png" alt="Bountiful Food's logo"></a>
+        </picture>
+        <h1>Bountiful Foods</h1>
+        <nav>
+            <ul class="navigation">
+                <li><a id="menu" href="#"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <picture class="main-img">
+            <source class="main-img" srcset="images/main-med.jpg" media="(min-width: 40em) and (max-width: 50em)">
+            <source class="main-img" srcset="images/main-large.jpg" media="(min-width: 50em)">
+            <img class="main-img" src="images/main-small.jpg" alt="Slices of fruit">
+        </picture>
+    </header>
+    <main>
+        <div id="drink-form">
+            <form onsubmit="getNutrition(); return false;">
+            <label for="name">Name *<br>
+                <input type="text" id="name" name="name" required>
+            </label>
+            <label for="email">Email *<br>
+                <input type="email" id="email" name="email" required placeholder="johndoe@email.com">
+            </label>
+            <label for="phone">Phone Number *<br>
+                <input type="tel" id="phone" name="phone" required>
+            </label>
+            <div><hr></div>
+            <label for="fruits">Fruit Choices *<br>
+                <select name="fruit1" id="fruit1" required>
+                    <option>--Select an option--</option>
+                </select>
+                <select name="fruit2" id="fruit2" required>
+                    <option>--Select an option--</option>
+                </select>
+                <select name="fruit3" id="fruit3" required>
+                    <option>--Select an option--</option>
+                </select>
+            </label>
+            <label for="special">Special Instructions (Optional)<br>
+                <textarea name="special" id="special" cols="30" rows="5"></textarea>
+            </label>
+            <label for="submit">
+                <input type="submit" id="submit" value="Order Drink">
+            </label>
+            </form>
+        </div>
+        <div>
+            <p id="drink-info"></p>
+        </div>
+    </main>
+    <footer>
+        <div id="footerCopyright">
+        <p><span id="copyright"></span> Bountiful Foods | Ashley Duke | WDD 230 Project</p>
+        <p><span id="lastUpdated"></span></p>
+        </div>
+        <p><a href="resources.html">Resources</a></p>
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+</html>
