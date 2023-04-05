@@ -53,10 +53,6 @@
         max-width: 60em;
         margin: 2em auto;
     }
-    .bot-img {
-        grid-column: span 2;
-        grid-row: 5;
-    }
     #weather {
         grid-column: 1;
         grid-row: 4;
@@ -75,5 +71,32 @@
     }
     #weather, #contactus {
         margin-bottom: 5em;
+    }
+    #home-main {
+        width: 50em;
+        margin: auto;
+    }
+    
+    /* ----------Fresh Page---------- */
+    #form-title {
+        grid-column: span 2;
+    }
+    #drink-form {
+        display: flex;
+        margin: auto;
+    }
+    #drink-form form {
+        width: 25em;
+        margin: 1em;
+    }
+    #drink-info {
+        margin: 1em;
+        text-align: left;
+    }
+
+    /* ----------About Us Page---------- */
+    #about-main {
+        max-width: 70em;
+        margin: auto;
     }
 }

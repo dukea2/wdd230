@@ -42,6 +42,7 @@
         </picture>
     </header>
     <main>
+        <h2 id="form-title">Make Your Own Specialty Drink!</h2>
         <div id="drink-form">
             <form onsubmit="getNutrition(); return false;">
             <label for="name">Name *<br>
@@ -56,13 +57,13 @@
             <div><hr></div>
             <label for="fruits">Fruit Choices *<br>
                 <select name="fruit1" id="fruit1" required>
-                    <option>--Select an option--</option>
-                </select>
+                    <option>Select #1</option>
+                </select><br>
                 <select name="fruit2" id="fruit2" required>
-                    <option>--Select an option--</option>
-                </select>
+                    <option>Select #2</option>
+                </select><br>
                 <select name="fruit3" id="fruit3" required>
-                    <option>--Select an option--</option>
+                    <option>Select #3</option>
                 </select>
             </label>
             <label for="special">Special Instructions (Optional)<br>
@@ -72,9 +73,9 @@
                 <input type="submit" id="submit" value="Order Drink">
             </label>
             </form>
-        </div>
-        <div>
-            <p id="drink-info"></p>
+            <div>
+                <p id="drink-info"></p>
+            </div>
         </div>
     </main>
     <footer>

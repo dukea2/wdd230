@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ashley Duke's Bountiful Foods Website for WDD 230 Final">
+    <meta name="author" content="Ashley Duke">
+    <title>About Us | Bountiful Foods</title>
+    <link rel="icon" href="images/bf-favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <div id="sociallinks">
+            <a href="https://www.facebook.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/240px-Facebook_icon_2013.svg.png" alt="Facebook logo" width="20"></a>
+            <a href="https://www.instagram.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/240px-Instagram_icon.png" alt="Instagram logo" width="20"></a>
+            <a href="https://twitter.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/292px-Twitter-logo.svg.png" alt="Twitter's logo" width="20"></a>
+        </div>
+        <picture>
+            <a href="index.html"><img id="mainlogo" src="images/bf-logo.png" alt="Bountiful Food's logo"></a>
+        </picture>
+        <h1>Bountiful Foods</h1>
+        <nav>
+            <ul class="navigation">
+                <li><a id="menu" href="#"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <picture class="main-img">
+            <source class="main-img" srcset="images/main-med.jpg" media="(min-width: 40em) and (max-width: 50em)">
+            <source class="main-img" srcset="images/main-large.jpg" media="(min-width: 50em)">
+            <img class="main-img" src="images/main-small.jpg" alt="Slices of fruit">
+        </picture>
+    </header>
+    <main id="about-main">
+        <div id="aboutus">
+            <h2>About Us</h2>
+            <p>Bountiful Foods' mission is to provide fresh and healthy food options, including organic, made to order, fruit drinks and fruit bags, to the local population and to tourists visiting the coastal areas. We consider ourselves a small business starting out in Carlsbad, but now have many food trucks covering the coastal area from Los Angeles to San Diego. We are dedicated to providing you with organic produce by sourcing directly from farmers in the area and supporting local.</p>
+        </div>
+        <div id="about-contact">
+            <h2>Contact Us</h2>
+            <div>
+                <p><strong>Address</strong></p>
+                <p>2907 State St</p>
+                <p>Carlsbad, CA 92008</p>
+            </div>
+            <div>
+                <p><strong>Email</strong></p>
+                <p>info@bountifulfoods.com</p>
+            </div>
+            <div>
+                <p><strong>Phone</strong></p>
+                <p>(760) 453-7076</p>
+            </div>
+        </div>
+        <div id="googlemap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3340.047229996063!2d-117.34967359999999!3d33.1603869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc721aaa6069b3%3A0x6c4daaddafa343b!2s2907%20State%20St%2C%20Carlsbad%2C%20CA%2092008!5e0!3m2!1sen!2sus!4v1680725962782!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+    <footer>
+        <div id="footerCopyright">
+        <p><span id="copyright"></span> Bountiful Foods | Ashley Duke | WDD 230 Project</p>
+        <p><span id="lastUpdated"></span></p>
+        </div>
+        <p><a href="resources.html">Resources</a></p>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

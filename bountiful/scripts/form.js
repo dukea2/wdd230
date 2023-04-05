@@ -106,7 +106,7 @@ function displayDrink() {
     let fruit2 = document.getElementById('fruit2').value;
     let fruit3 = document.getElementById('fruit3').value;
     let date = new Date();
-    let currentDate = `Date of Order: ${date.getMonth()}/${date.getDate()}/${date.getFullYear()}`;
+    let currentDate = `Date of Order: ${date.getMonth()+1}/${date.getDate()}/${date.getFullYear()}`;
     
-    document.getElementById('drink-info').innerHTML = `${currentDate}<br><br>User Information<br>Name: ${document.getElementById("name").value}<br>Email: ${document.getElementById("email").value}<br>Phone: ${document.getElementById("phone").value}<br><br>Drink Information<br>Fruit: ${fruit1}, ${fruit2}, ${fruit3}<br>Special Instructions: ${document.getElementById("special").value}<br><br>Nutrition Information<br>${nutrition}`;
+    document.getElementById('drink-info').innerHTML = `${currentDate}<br><br><strong>User Information</strong><br>Name: ${document.getElementById("name").value}<br>Email: ${document.getElementById("email").value}<br>Phone: ${document.getElementById("phone").value}<br><br><strong>Drink Information</strong><br>Fruit: ${fruit1}, ${fruit2}, ${fruit3}<br>Special Instructions: ${document.getElementById("special").value}<br><br><strong>Nutrition Information</strong><br>${nutrition}`;
 }
